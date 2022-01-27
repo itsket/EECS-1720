@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  background-color:black;
+  overflow:auto;
+}
+
+body {
+	text-align:center;
+	color:rgb(85, 170, 250);
+}
+
+div {
+	border:1px solid rgb(85, 170, 250);
+	margin-top:20px;
+}
+#problem {
+
+	margin:auto;
+	margin-top:20px;
+	height:80px;
+	text-align:left;
+	color:rgb(253, 62, 158);
+	font-family:Luminary, cursive;
+	font-size:15px;
+	padding-left:20px;
+	padding-right:20px;
+	width: 90vw;
+}
+
+footer{
+	margin-top:20px;
+	text-align:center;
+	font-size:10px;
+}
+header nav button{
+	width:9%;
+	font-size:1.2vw;
+	cursor: pointer;
+	border-radius: 25px;
+	color:rgb(253, 62, 158);
+  }
+  header nav button{
+   width:18%;
+   font-size:8px;
+   color: white;
+ }
+
+ img {
+  width: 100%;
+  height: auto;
+margin-top:5px;
+padding: 2px;
+/* in Ex1, add one line here such that the img
+does not display */
+}
+
+[class*="column"] {
+   width: 100%;
+   display:inline-block;
+   height:60vh;
+}
